@@ -1,7 +1,7 @@
 def simple_interest(p, t, r):
-    print('The principal is', p)
-    print('The time period is', t)
-    print('The rate of interest is', r)
+    print('The Principal is', p)
+    print('The Time Period is', t)
+    print('The Rate of Interest is', r)
 
     si = (p * t * r) / 100
 
@@ -9,7 +9,7 @@ def simple_interest(p, t, r):
 
 
 # Driver code
-P = int(input("Enter the principle amount :"))
-T = int(input("Enter the time period :"))
-R = int(input("Enter the rate of interest :"))
+P = int(input("Please Enter the Principle Amount :"))
+T = int(input("Please Enter the Time Period :"))
+R = int(input("Please Enter the Rate of Interest :"))
 simple_interest(P, T, R)
